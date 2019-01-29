@@ -1,6 +1,7 @@
 # Interview Armour
 <p align="right">
-  <img src="https://github.com/naflaherty/Interview_Armour/blob/master/logo_v2.jpg" width="150" title="hover text">
+  <img src = "https://github.com/naflaherty/Interview_Armour/blob/master/tag_line_v1.jpg" title="interview_armour_tag_line">
+  <img src="https://github.com/naflaherty/Interview_Armour/blob/master/logo_v2.jpg" width="150" title="interview_armour_logo">
 </p>
 
 For times when you're under pressure, use Interview Armour as your relaxation tool! 
