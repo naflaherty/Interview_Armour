@@ -1,6 +1,6 @@
 # Interview Armour
 
-![alt text] (https://github.com/naflaherty/Interview_Armour/blob/master/logo_v2.jpg)
+![Interview_Armour](https://github.com/naflaherty/Interview_Armour/blob/master/logo_v2.jpg)
 
 
 For times when you're under pressure, use Interview Armour as your relaxation tool! 
