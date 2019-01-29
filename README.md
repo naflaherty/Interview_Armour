@@ -1,7 +1,7 @@
 # Interview Armour
-
-![Interview_Armour](https://github.com/naflaherty/Interview_Armour/blob/master/logo_v2.jpg)
-:scale: 15 %
+<p align="right">
+  <img src="https://github.com/naflaherty/Interview_Armour/blob/master/logo_v2.jpg" width="350" title="hover text">
+</p>
 
 For times when you're under pressure, use Interview Armour as your relaxation tool! 
 
