@@ -15,3 +15,6 @@ Features:
 •	Easy fitting
 •	Fully controllable from your phone!
 
+<p>
+  <img src = "http://2.bp.blogspot.com/-SIJ6uWihBRM/URthWxqirXI/AAAAAAAAGPQ/95wCuOHBfZs/s1600/Logo+Twitter.jpg" title ="Twitter Link">
+  </p>
