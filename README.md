@@ -1,6 +1,6 @@
 # <img src = "https://github.com/naflaherty/Interview_Armour/blob/master/logo_words_v1.jpg">
 
-<p align="right">
+<p>
   <img src = "https://github.com/naflaherty/Interview_Armour/blob/master/tag_line_v1.jpg" title="interview_armour_tag_line">
   <img src="https://github.com/naflaherty/Interview_Armour/blob/master/logo_v2.jpg" width="150" title="interview_armour_logo">
 </p>
