@@ -1,0 +1,30 @@
+<!-- This is the login page written for the ENG5220 Real-Time Embedded Programming Class -->
+<!-- It's based on a tutorial found here: https://www.formget.com/javascript-login-form/ -->
+
+<html>
+<head>
+
+<title>Interview Armour</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/favicon.ico" />
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="H:/My Documents/website_stuff/style.css"/> 
+<!-- Include JS File Here -->
+<script src="H:/My Documents/website_stuff/login.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="main">
+<h2><center><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/combined.jpg" alt = "Interview Armour Combined Logo" style="width:383px;height:78px;" /></center></h2>
+
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label>
+<input type="text" name="username" id="username"/>
+<label>Password :</label>
+<input type="password" name="password" id="password"/>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+</form>
+<span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : password<br/>Password : password123</b></span>
+</div>
+</div>
+</body>
+</html>
