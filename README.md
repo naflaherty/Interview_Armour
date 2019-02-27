@@ -1,8 +1,8 @@
-# <img src = "https://github.com/naflaherty/Interview_Armour/blob/master/logo_words_v1.jpg">
+# <img src = "https://github.com/naflaherty/Interview_Armour/blob/Website-Development/logo_words_v1.jpg">
 
 <p>
-  <img src = "https://github.com/naflaherty/Interview_Armour/blob/master/tag_line_v1.jpg" title="interview_armour_tag_line">
-  <img src="https://github.com/naflaherty/Interview_Armour/blob/master/logo_v2.jpg" width="150" title="interview_armour_logo">
+  <img src = "https://github.com/naflaherty/Interview_Armour/blob/Website-Development/tag_line_v1.jpg" alt="interview_armour_tag_line">
+  <img src="https://github.com/naflaherty/Interview_Armour/blob/Website-Development/logo_v2.jpg" width="150" alt="interview_armour_logo">
 </p>
 
 For times when you're under pressure, use Interview Armour as your relaxation tool! 
