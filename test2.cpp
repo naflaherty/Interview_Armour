@@ -28,7 +28,7 @@ int main(int argc, char** argv)
         // As soon as we dedect an input, log and quit.
        if((digitalRead(INPUT_PIN) == HIGH) && (state == HIGH))
 	{
-	    printf("LEDs ON\n");
+	    printf("LEDs OFF!\n");
 	    state = LOW;		
 	    
 	    //switch on LEDs
@@ -41,7 +41,7 @@ int main(int argc, char** argv)
     
 	else if((digitalRead(INPUT_PIN) == HIGH) && (state == LOW))
 	{
-	    printf("LEDs OFF\n");//
+	    printf("LEDs ON\n");//
 	    state = HIGH;		
 	    
 	    //switch on LEDs
@@ -55,13 +55,13 @@ int main(int argc, char** argv)
     else if ((digitalRead(INPUT_PIN) == LOW) && (state == LOW))
     {
 	    printf("idling!\n"); //
-	    //state = LOW;		
+	    state = LOW;		
 	    
 	    //switch on LEDs
-	   // digitalWrite(0, state); //physical pin 11
-	   // digitalWrite(3, state); //physical pin 15
-	    //digitalWrite(4, state); //physical pin 16
-	   // sleep(1);
+	    digitalWrite(0, state); //physical pin 11
+	    digitalWrite(3, state); //physical pin 15
+	    digitalWrite(4, state); //physical pin 16
+	    sleep(1);
 		
     }
 }
