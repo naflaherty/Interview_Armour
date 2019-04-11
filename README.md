@@ -1,6 +1,6 @@
 # <img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/combined.jpg">
 
-<h1>For times when you're under pressure, use Interview Armour as your relaxation tool! <h1>
+<h1>For times when you're under pressure, use Interview Armour as your relaxation tool! </h1>
 
 With up to 10 vibrating sensors that can be tuned to your body's unique stress reactions, Interview Armour is sure to keep you cool, calm and collected when you need it most! Interview Armour is worn discretely under your clothes to allow it to it detects that you're becoming stressed, it will then activate a number of relaxing, vibrating sensors.
 
