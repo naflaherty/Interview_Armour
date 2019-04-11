@@ -12,5 +12,5 @@ Features:
 
 Check us out on Twitter!!
 
-<a href = "https://twitter.com/InterviewArmour"><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/twitter_logo_bird_transparent_png.png" alt = "Social Media nonsense" width = "25" height = "25" /></a> InterviewArmour
+Check out our FAQ page on <a href = "https://github.com/naflaherty/Interview_Armour/wiki"> Github!!! </a>
 
