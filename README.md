@@ -22,7 +22,6 @@ Features:
   </tr>
 </table>
 
- <a href="https://tenor.com/search/cat-gifs">Cat GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 Check us out on Twitter <a href = "https://twitter.com/InterviewArmour"><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/twitter_logo_bird_transparent_png.png" alt = "Social Media nonsense" width = "25" height = "25" /></a> InterviewArmour
 
