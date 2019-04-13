@@ -15,11 +15,18 @@
 #include <string>
 #include <chrono>   //this is the sleep function
 #include <thread>
+#include <vector>
 
 #include "lux.cpp" 
+using namespace std;
+extern const int numSamples;
+vector<int> calculated_value;
 
-unsigned int lux_calcs(int count)
+vector<int> lux_calcs() //vector<int> vect
 {
+
+calculated_value.clear();
+
 	// Create I2C bus
 	int file;
 	
@@ -52,18 +59,11 @@ unsigned int lux_calcs(int count)
 	unsigned int ch0; //raw data values...
 	unsigned int ch1;
 	int iType = 0; //this is the sensor type, set to T
-	unsigned int lux_output; 
-	
-	FILE *fp;
-//fp = fopen("Data_wristblack_402int_403sleep_1.txt", "a+");
-fp = fopen("/home/pi/cmake_test/full_code.txt", "w");
-printf("justbeliw file\n");
 
-//int count =0;
-while (count ) //<10
-{
-	printf("inside while \n");
+	int count = 0;
 	
+	while (count<20) //<10
+	{
 	// Read 4 bytes of data from register(0x0C | 0x80)
 	// ch0 lsb, ch0 msb, ch1 lsb, ch1 msb
 	char reg[1] = {0x0C | 0x80};
@@ -83,28 +83,14 @@ while (count ) //<10
 		ch0 = (data[1] * 256 + data[0]);
 		ch1 = (data[3] * 256 + data[2]);
 		
-		lux_output = CalculateLux(iGain, tInt, ch0, ch1, iType);
-	
-		//printf("lux %lu \n", lux);
-		printf("inside lux while loop %lu\n", lux_output);
-		fprintf(fp, "%lu \n", lux_output);
-		
-		//fprintf(fp, "opened file \n");
-
-		// Output data to screen
-		//printf("Full Spectrum(IR + Visible) : %.2u lux \n", ch0);
-		//printf("Infrared Value : %.2u lux \n", ch1);
-		//printf("Visible Value : %.2ulux \n", (ch0 - ch1));
-		//fprintf(fp, "Infrared Value : %.2u  Visible Value: %.2u lux data0: %.2d lux data1: %.2d lux data2: %.2d lux data3: %.2d lux \n", ch1, (ch0 - ch1),data[0],data[1],data[2],data[3]);
-	
-		//fprintf("%lu \n", lux);
-	
+		//int lux_value = CalculateLux(iGain, tInt, ch0, ch1, iType);
+		calculated_value.push_back(ch0); //lux_value
+		//cout<<"lux value: "<<lux_value<<endl;
 	}
 	count++;	
 }
-fclose (fp);
-printf("end of code \n;");
-return lux_output;
+return calculated_value;
+
 }
 
 
