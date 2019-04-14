@@ -29,6 +29,7 @@ Features:
 	<td><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/phone.png" alt = "Controllable from phone" /> Fully controllable from your phone </td>
   </tr>
 </table>
+<center><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/construction/images/IA.gif" alt = "IA" width="250" /></center>
 
 Interview Armour is a versatile product that could help you in many aspects of your life. Stress often comes at important moments of your life and altering the outcome of these events could improve your future.
 
