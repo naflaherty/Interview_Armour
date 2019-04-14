@@ -4,7 +4,7 @@
 
 
 <h1>For times when you're under pressure, use Interview Armour as your relaxation tool!
- & mdash It'll make you feel like this cool cat! (And who wouldn't want that?!)</h1>
+ * It'll make you feel like this cool cat! (And who wouldn't want that?!)</h1>
 
 <td><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/tenor.gif" alt = "Cat gif"/>
 
