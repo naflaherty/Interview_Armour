@@ -1,6 +1,8 @@
 # <img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/combined.jpg">
 
+<p align="center">
 <center><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/construction/images/finished.jpg" alt = "finished" width="400" align="middle"/></center>
+</p>
 
 <h1>For times when you're under pressure, use Interview Armour as your relaxation tool! </h1>
 
