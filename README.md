@@ -9,6 +9,7 @@
 <h3>It'll make you feel like this cool cat!</h3>
 (And who wouldn't want that?!)
 <br>
+<br>
 <td><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/tenor.gif" alt = "Cat gif"/>
 
 With up to 10 vibrating sensors that can be tuned to your body's unique stress reactions, Interview Armour is sure to keep you cool, calm and collected when you need it most! Interview Armour is worn discretely under your clothes to allow it to detect when you're becoming stressed, it will then activate a number of relaxing, vibrating sensors.
