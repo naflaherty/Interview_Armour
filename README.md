@@ -2,8 +2,8 @@
 
 <center><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/construction/images/finished.jpg" alt = "finished" width="400" align="middle"/></center>
 
-
-<center><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/mock_up_v1.png" alt = "Mock up image of the product" /></center>
+:-------------------------:|:-------------------------:
+<center><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/mock_up_v1.png" alt = "Mock up image of the product" width="500" /></center> |  <center><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/construction/images/heart rate.gif" alt = "heartrate" width="400" /></center>
 
 
 
