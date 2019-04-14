@@ -1,6 +1,12 @@
 # <img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/combined.jpg">
 
+<center><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/construction/images/finished.jpg" alt = "finished" width="400" align="middle"/></center>
+
+
 <center><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/mock_up_v1.png" alt = "Mock up image of the product" /></center>
+
+
+
 
 
 <h1>For times when you're under pressure, use Interview Armour as your relaxation tool! </h1>
@@ -29,7 +35,11 @@ Features:
   </tr>
 </table>
 
+Interview Armour is a versatile product that could help you in many aspects of your life. Stress often comes at important moments of your life and altering the outcome of these events could improve your future.
 
+<h3> So buckle up and enjoy the ride!! </h3>
+
+<center><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/construction/images/buckle (2).gif" alt = "buckle up" width="200" /></center>
 
 Check us out on Twitter <a href = "https://twitter.com/InterviewArmour"><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/twitter_logo_bird_transparent_png.png" alt = "Social Media nonsense" width = "25" height = "25" /></a> InterviewArmour
 
