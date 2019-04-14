@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Interview Armour</title>
+
+<link rel = "shortcut icon" type = "image/x-icon" href = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/favicon.ico" />
+<link rel="stylesheet" href="style_main.css"/>
+
+<meta charset = "utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1">
+
+ <script type="text/javascript" src="smoothie.js"></script>
+</head>
+
+
+</head>
+<body>
+<h2><center><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/combined.jpg"></center></h2>
+<header>
+  <h2>Statistics</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href = "homepage_v2.html">Home</a></li>
+      <li><a href = "LED_control.html">Motor Control</a></li>
+      <li><a href = "https://github.com/naflaherty/Interview_Armour/wiki"> FAQs</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Heart Rate</h1>
+
+    <canvas id="mycanvas" width="400" height="100"></canvas>
+
+    <script type="text/javascript">
+
+      // Random data
+      var line1 = new TimeSeries();
+      var line2 = new TimeSeries();
+      setInterval(function() {
+        line1.append(new Date().getTime(), Math.random());
+        line2.append(new Date().getTime(), Math.random());
+      }, 1000);
+
+      var smoothie = new SmoothieChart({ grid: { strokeStyle: 'rgb(30, 30, 30)', fillStyle: 'rgb(196, 196, 196)', lineWidth: 1, millisPerLine: 250, verticalSections: 6 } });
+      smoothie.addTimeSeries(line1, { strokeStyle: 'rgb(55, 60,113)', fillStyle: 'rgba(131, 138, 247, 0.4)', lineWidth: 3 });
+      smoothie.addTimeSeries(line2, { strokeStyle: 'rgb(104, 113, 232)', fillStyle: 'rgba(157, 68, 68, 0.3)', lineWidth: 3 });
+
+      smoothie.streamTo(document.getElementById("mycanvas"), 1000);
+    </script>
+	
+	<p><h1> Heart Rate Statistics<h1></p>
+	
+   </article>
+</section>
+<footer>
+ <a href = "https://twitter.com/InterviewArmour"><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/twitter_logo_bird_transparent_png.png" alt = "Social Media nonsense" width = "25" height = "25" /></a> InterviewArmour   <a href = "https://twitter.com/InterviewArmour"><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/YouTube-logo-2017-logotype.png" alt = "Social Media nonsense" width = "50" height = "50" /></a> Interview Armour
+
+<p style="font-size:10px;"> &copy Team 3: ENG5220 Real Time Embedded Programming University of Glasgow </p>
+</footer>
+</body>
+</html>

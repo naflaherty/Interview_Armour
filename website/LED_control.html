@@ -1,0 +1,108 @@
+
+<html>
+<head>
+<title>Interview Armour</title>
+
+<link rel = "shortcut icon" type = "image/x-icon" href = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/favicon.ico" />
+<link rel="stylesheet" href="style_main.css"/>
+
+<meta charset = "utf-8">
+<meta name = "viewport" content = "width = device-width, initial-scale=1">
+
+</head>
+</head>
+
+<body> 
+  
+<h1><center><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/combined.jpg"></center></h1>
+
+<header>
+  <h1>Vibration Motor Selection</h1>
+</header>
+
+<section> 
+ 
+  <nav>
+    <ul>
+      <li><a href = "homepage_v2.html">Home</a></li>
+      <li><a href = "graph_v1.html">Statistics</a></li>
+      <li><a href = "https://github.com/naflaherty/Interview_Armour/wiki"> FAQs</a></li>
+    </ul>
+  </nav>
+     
+<article>
+
+    <img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/mock_up_v1.png" alt = "Mock up image of the product" align = "right">
+    
+    <h2>Select which group of sensors you would like to switch on</h2>
+
+<label class="container">Group One
+  <p></p><input type="checkbox" id="light"></p>
+  <span class="checkmark"></span>
+</label>
+
+<label class="container">Group Two
+  <p></p><input type="checkbox" id="light2"></p>
+  <span class="checkmark"></span>
+</label>
+
+
+<label class="container">Group Three
+  <p></p><input type="checkbox" id="light3"></p>
+  <span class="checkmark"></span>
+</label>
+</article>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script> <!-- include socket.io client side script -->
+<script>
+var socket = io(); //load socket.io-client and connect to the host that serves the page
+window.addEventListener("load", function(){ //when page loads
+  var lightbox = document.getElementById("light"); 
+  lightbox.addEventListener("change", function() { //add event listener for when checkbox changes
+    socket.emit("light", Number(this.checked)); //send button status to server (as 1 or 0)
+  });
+});
+socket.on('light', function (data) { //get button status from client
+  document.getElementById("light").checked = data; //change checkbox according to push button on Raspberry Pi
+  console.log("html data", data);
+  socket.emit("light", data); //send push button status to back to server
+});
+</script>
+
+<script>
+var socket = io(); //load socket.io-client and connect to the host that serves the page
+window.addEventListener("load", function(){ //when page loads
+  var lightbox = document.getElementById("light2"); 
+  lightbox.addEventListener("change", function() { //add event listener for when checkbox changes
+    socket.emit("light2", Number(this.checked)); //send button status to server (as 1 or 0)
+  });
+});
+socket.on('light2', function (data) { //get button status from client
+  document.getElementById("light2").checked = data; //change checkbox according to push button on Raspberry Pi
+  socket.emit("light2", data); //send push button status to back to server
+});
+</script>
+
+<script>
+var socket = io(); //load socket.io-client and connect to the host that serves the page
+window.addEventListener("load", function(){ //when page loads
+  var lightbox = document.getElementById("light3"); 
+  lightbox.addEventListener("change", function() { //add event listener for when checkbox changes
+    socket.emit("light3", Number(this.checked)); //send button status to server (as 1 or 0)
+  });
+});
+socket.on('light3', function (data) { //get button status from client
+  document.getElementById("light3").checked = data; //change checkbox according to push button on Raspberry Pi
+  socket.emit("light3", data); //send push button status to back to server
+});
+</script>
+
+
+<footer>
+ <a href = "https://twitter.com/InterviewArmour"><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/twitter_logo_bird_transparent_png.png" alt = "Social Media nonsense" width = "25" height = "25" /></a> InterviewArmour   <a href = "https://twitter.com/InterviewArmour"><img src = "https://raw.githubusercontent.com/naflaherty/Interview_Armour/master/YouTube-logo-2017-logotype.png" alt = "Social Media nonsense" width = "50" height = "50" /></a> Interview Armour
+
+<p style="font-size:10px;"> &copy Team 3: ENG5220 Real Time Embedded Programming University of Glasgow </p>
+</footer>
+</body>
+</html>
