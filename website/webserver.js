@@ -3,10 +3,10 @@ var fs = require('fs'); //require filesystem module
 var url = require('url');
 var io = require('socket.io')(http) //require socket.io module and pass the http object (server)
 var Gpio = require('onoff').Gpio; //include onoff to interact with the GPIO
-var LED = new Gpio(17, 'out'); //use GPIO pin 10 as output
-var LED2 = new Gpio(22, 'out'); //use GPIO pin 18 as output
-var LED3 = new Gpio(23, 'out'); //use GPIO pin 18 as output
-var pushButton = new Gpio(18, 'in', 'both'); //use GPIO pin 17 as input, and 'both' button presses, and releases should be handled
+var LED = new Gpio(4, 'out'); //use GPIO pin 10 as output
+var LED2 = new Gpio(17, 'out'); //use GPIO pin 18 as output
+var LED3 = new Gpio(27, 'out'); //use GPIO pin 18 as output
+var pushButton = new Gpio(22, 'in', 'both'); //use GPIO pin 17 as input, and 'both' button presses, and releases should be handled
 
 http.listen(8080); //listen to port 8080
 
